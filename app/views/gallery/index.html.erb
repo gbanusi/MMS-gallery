@@ -1,0 +1,84 @@
+   <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" >
+                <%# audio_tag("Beethoven.mp3", autoplay: true, controls: true) %>
+                <!-- <audio controls loop style="right: 15px; position: absolute;">
+                  <source src="audio/amclassical_beethoven_fur_elise.mp3" type="audio/mpeg">
+                </audio> -->
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page-header">Galerija</h1>
+            </div>
+
+            
+            <% @pictures.each_with_index do |picture, i| %>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" >
+                        <%= image_tag picture.pic.url,:class => 'img-responsive', :data => {:range => i, :name => picture.name} %>
+                    </a>
+                    <% if admin_signed_in? %>
+                        <%= link_to 'Izbrisi sliku', destroy_picture_path(picture.id), :method => 'delete' %>
+                    <% end %>
+                </div>
+            <% end %>    
+
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+               
+                <div id="caption"></div>
+                
+                <a class="prev" onclick="slide(-1)">&#10094;</a>
+                <a class="next" onclick="slide(1)">&#10095;</a>
+            </div>
+
+            <script>
+                var modal = document.getElementById('myModal');
+                var modalImg = document.getElementById("img01");
+                var id = -1;
+                $(".img-responsive").on("click", function(){
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    // captionText.innerHTML = this.alt;
+                    id = $(this).data("range");
+                    pic_name = $(this).data("name");
+                    $("#caption").html(pic_name);
+                });
+                var span = document.getElementsByClassName("close")[0];
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+                function slide(x){
+                    id = id + x;
+                    len = $(".img-responsive").length;
+                    if(id >= len){
+                        id = 0;
+                    } else if(id < 0){
+                        id = len-1;
+                    }
+                    image = $(".img-responsive").filter('[data-range="'+id+'"]')[0];
+                    modalImg.src = image.src;
+                    pic_name = image.attributes[2].value;
+                    $("#caption").html(pic_name);
+                }
+            </script>
+        </div>
+
+        <hr>
+
+        <div id="footer-info">
+            <div class="col-lg-12">
+                <div class="footer-area">
+                    <a class="footer-info-item last" style="left: 0; position: absolute;" href="https://www.math.pmf.unizg.hr/hr/multimedijski-sustavi-pravila">PMF Matematika</a>
+                    <a class="footer-info-item last" style="right: 0; position: absolute;" href="https://www.facebook.com/groups/522346087960398/" target="_blank"><%= image_tag 'fejs.png', :width => '30px', :height => '30px' %></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>

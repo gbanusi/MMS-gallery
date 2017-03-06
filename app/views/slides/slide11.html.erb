@@ -1,0 +1,50 @@
+<div class="linkovi" style="display: flex; justify-content: space-between;">
+    <%= link_to 'Prethodni', slide10_path %>
+    <%= link_to 'Sljedeci', slide12_path %>
+</div>
+
+<head>
+    <style>
+        body {
+	        /*background: #5a91b4;*/
+	        background: #fff;
+
+        }
+        div {
+            width: 1440px;
+        }
+        video {
+            width: 500px;
+            height: 500px;
+            mask:url('#imask');
+            -webkit-mask:url('<%= asset_path 'mask.svg' %>');
+
+        }
+    </style>
+   </head>
+
+    <body>
+        <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; margin: 50px 100px;">
+        	<div class="">
+        		<%= video_tag "jellies.mp4", :controls => true %>
+        	</div>
+			<div class="">
+				
+			</div>
+        </div>
+		<div style="margin-left: 100px;">
+			<%= inline_svg 'mask.svg' %>
+		</div>
+        
+        <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+            <defs>
+                <mask id="imask">
+                    <image width="400px" height="400px" xlink:href="http://copy.com/TCImDzmSoq8CrU8W/mask.png"></image>
+                </mask>
+            </defs>
+        </svg>
+ -->
+
+		
+
+    </body>

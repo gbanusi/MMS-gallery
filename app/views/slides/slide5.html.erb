@@ -1,0 +1,22 @@
+<div class="linkovi" style="display: flex; justify-content: space-between;">
+	<%= link_to 'Prethodni', slide4_path %>
+	<%= link_to 'Sljedeci', slide6_path %>
+</div>
+<div class="" style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
+	<br><br><br>
+	<%= audio_tag("horse.ogg", :controls => true) %>
+	<br><br><br>
+	<%= image_tag('audio_jpg.png', :class => 'audio-kod-slika') %>
+	<br><br><br>
+	<div class="" style="font-size: 36px; padding: 5%;">
+		<ul>
+			<li style="font-size: 36px; margin: 16px auto;">
+				"controls" atribut - dodaje audio kontrole, kao sto su pokreni, puaziraj i glasnoća
+			</li>
+			<li style="font-size: 36px;">
+				"source" element - dozvoljava da specificiramo audio datoteku koju će browser podržati.</p>
+			</li>
+		</ul>
+	</div>
+	
+</div>

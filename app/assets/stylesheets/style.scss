@@ -1,0 +1,58 @@
+#fileWrapper{
+	transition:all 0.5s ease;
+}
+#fileWrapper:hover{
+	opacity: 1!important;
+}
+
+#visualizer_wrapper{
+	text-align: center;
+}
+footer{
+	position: fixed;
+	bottom: 2px;
+	color:#aaa;
+}
+
+
+.linkovi {
+  
+
+	a {
+		background: #e81c60;
+  background-image: -webkit-linear-gradient(top, #e81c60, #a60000);
+  background-image: -moz-linear-gradient(top, #e81c60, #a60000);
+  background-image: -ms-linear-gradient(top, #e81c60, #a60000);
+  background-image: -o-linear-gradient(top, #e81c60, #a60000);
+  background-image: linear-gradient(to bottom, #e81c60, #a60000);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 12px;
+  text-decoration: none;
+	}
+
+  a:hover {
+      background: #ab0030;
+  background-image: -webkit-linear-gradient(top, #ab0030, #bd2222);
+  background-image: -moz-linear-gradient(top, #ab0030, #bd2222);
+  background-image: -ms-linear-gradient(top, #ab0030, #bd2222);
+  background-image: -o-linear-gradient(top, #ab0030, #bd2222);
+  background-image: linear-gradient(to bottom, #ab0030, #bd2222);
+  text-decoration: none;
+  }
+
+}
+
+.audio-kod-slika {
+  width: 800px;
+  height: 170px;
+}
+
+.slide-video {
+  width: 300px;
+  height: 500px;
+}
