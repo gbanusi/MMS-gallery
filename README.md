@@ -1,24 +1,5 @@
-# README
+This i a Ruby on Rails (RoR) project for Multimedia systems (https://www.math.pmf.unizg.hr/hr/multimedijski-sustavi-pravila).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Gallery is running on link:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://ancient-fortress-78196.herokuapp.com/
