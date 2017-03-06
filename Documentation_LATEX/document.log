@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.27)  6 MAR 2017 09:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.27)  6 MAR 2017 09:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -484,16 +484,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -501,21 +506,21 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 File: struktura-projekta.png Graphic file (type png)
 
 <use struktura-projekta.png>
-Package pdftex.def Info: struktura-projekta.png used on input line 45.
+Package pdftex.def Info: struktura-projekta.png used on input line 46.
 (pdftex.def)             Requested size: 250.93687pt x 251.94063pt.
  [2 <./struktura-projekta.png>]
 <nav-bar.png, id=18, 372.39125pt x 50.1875pt>
 File: nav-bar.png Graphic file (type png)
  <use nav-bar.png>
-Package pdftex.def Info: nav-bar.png used on input line 79.
+Package pdftex.def Info: nav-bar.png used on input line 80.
 (pdftex.def)             Requested size: 186.19516pt x 25.09367pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--83
+Underfull \hbox (badness 10000) in paragraph at lines 73--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--83
+Underfull \hbox (badness 10000) in paragraph at lines 73--84
 
  []
 
@@ -523,60 +528,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--83
 File: galerija.png Graphic file (type png)
 
 <use galerija.png>
-Package pdftex.def Info: galerija.png used on input line 96.
+Package pdftex.def Info: galerija.png used on input line 97.
 (pdftex.def)             Requested size: 260.40742pt x 143.3626pt.
  <slider.png, id=25, 1127.21124pt x 633.36626pt>
 File: slider.png Graphic file (type png)
 
 <use slider.png>
-Package pdftex.def Info: slider.png used on input line 105.
+Package pdftex.def Info: slider.png used on input line 106.
 (pdftex.def)             Requested size: 259.25313pt x 145.67117pt.
 
-Overfull \hbox (1.06554pt too wide) in paragraph at lines 101--109
+Overfull \hbox (1.06554pt too wide) in paragraph at lines 102--110
 []\OT1/cmr/m/n/10 Tako[]der sadr^^Tzi ta-ko-zvani "sli-der" tj. pri-kaz slika n
 a-kon klika na njih. Pomo^^Scu
  []
 
 [4 <./galerija.png> <./slider.png>] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
+Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--134
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
 
  []
 
 <audio.png, id=35, 810.02625pt x 459.7175pt>
 File: audio.png Graphic file (type png)
  <use audio.png>
-Package pdftex.def Info: audio.png used on input line 143.
+Package pdftex.def Info: audio.png used on input line 144.
 (pdftex.def)             Requested size: 243.00975pt x 137.9163pt.
  [6 <./audio.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 153.
+(Font)              <7> on input line 154.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 153.
+(Font)              <5> on input line 154.
 
 <dodaj-sliku.png, id=40, 1133.23375pt x 634.37pt>
 File: dodaj-sliku.png Graphic file (type png)
  <use dodaj-sliku.png>
-Package pdftex.def Info: dodaj-sliku.png used on input line 167.
+Package pdftex.def Info: dodaj-sliku.png used on input line 168.
 (pdftex.def)             Requested size: 249.3122pt x 139.56183pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--171
+Underfull \hbox (badness 10000) in paragraph at lines 159--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--171
+Underfull \hbox (badness 10000) in paragraph at lines 159--172
 
  []
 
 <dodaj-projekt.png, id=41, 1130.2225pt x 630.355pt>
 File: dodaj-projekt.png Graphic file (type png)
  <use dodaj-projekt.png>
-Package pdftex.def Info: dodaj-projekt.png used on input line 174.
+Package pdftex.def Info: dodaj-projekt.png used on input line 175.
 (pdftex.def)             Requested size: 248.64972pt x 138.67853pt.
 
 
@@ -586,10 +591,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <o-kolegiju.png, id=55, 1128.215pt x 633.36626pt>
 File: o-kolegiju.png Graphic file (type png)
  <use o-kolegiju.png>
-Package pdftex.def Info: o-kolegiju.png used on input line 196.
+Package pdftex.def Info: o-kolegiju.png used on input line 197.
 (pdftex.def)             Requested size: 248.20807pt x 139.341pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--200
+Underfull \hbox (badness 10000) in paragraph at lines 192--201
 
  []
 
@@ -617,7 +622,7 @@ ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (9 pages, 1863640 bytes).
+Output written on document.pdf (9 pages, 1863814 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
