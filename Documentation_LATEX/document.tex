@@ -39,7 +39,7 @@ Trenutnu verziju možete vidjeti na:
 \newpage
 
 \subsection{Struktura koda}
-Za unaprijeđivanje projekta koristit će se većinom datoteke označene u narednoj slici. U folderu "assets" se nalaze slike koje koristimo za izgled web stranice.
+Za unaprjeđivanje projekta koristit će se većinom datoteke označene u narednoj slici. U folderu "assets" se nalaze slike koje koristimo za izgled web stranice ("hardkodirane slike").
 
 \begin{figure}[h]
 	\centering
@@ -58,7 +58,7 @@ Nedostatci:
 
 \section{Dizajn web galerije}
 
-Galerija se sastoji od više stranica koje zajedno čine cjelinu.
+Galerija se sastoji od više stranica (linkova) koje zajedno čine cjelinu.
 Sve stranice nalaze se u navigacijskom izborniku na vrhu stranice. Navigacijski izbornik bi se trebao sastojati od linkova za:
 
 \begin{itemize}
@@ -84,13 +84,13 @@ Sve stranice nalaze se u navigacijskom izborniku na vrhu stranice. Navigacijski 
 
 Nedostatci:
 \begin{itemize}
-	\item navigacijski izbornik ne radi za male ekrane (kad se smanji dobije se gumb koji ne radi na klik u chromu) 
+	\item navigacijski izbornik ne radi za male ekrane (kad se smanji dobije se gumb koji ne radi na klik u google chrome-u) 
 \end{itemize}
 
 \newpage
 \subsection{Galerija}
-\textit{Galerija slika} sadrži sve slike koje su stavljene na server.
-(Više o stavljanju na server kasnije.)
+\textit{Galerija slika} sadrži sve slike koje su stavljene na server od strane administratora.
+(Više o stavljanju slika na server kasnije.)
 \\
 \begin{figure}[h]
 	\centering
@@ -99,7 +99,7 @@ Nedostatci:
 	\label{fig:mesh1}
 \end{figure}
 
-Također sadrži takozvani "slider" tj. prikaz slika nakon klika na njih. Pomoću gumbova se može kretati po galeriji lijevo odnosno desno ili izaći iz galerije. Svaka slika ima svoje ime koje se prikazuje nakon klika. Slike su sortirane po datumu kada su stavljene (od najnovije prema starijima).
+Također sadrži takozvani "slider" tj. prikaz slika nakon klika na njih. Pomoću gumbova se može kretati po galeriji lijevo odnosno desno ili izaći iz prikaza slika. Svaka slika ima svoje ime koje se prikazuje nakon klika. Slike su sortirane po datumu kada su stavljene (od najnovije prema starijima).
 \\
 \begin{figure}[h]
 	\centering
@@ -123,12 +123,12 @@ Implementirati:
 \begin{itemize}
 	\item prikaz slika iz videa
 	\item klikom na video se prikaže modal koji izvodi video
-	\item možemo se kretati po videima lijevo desno, izlaz na gumb X
-	\item spremati podatke videa u bazu podataka (backend)
+	\item možemo se kretati po videima lijevo odnosno desno, izlazi se pritiskom na gumb \textbf{X}
+	\item spremati podatke o videu u bazu podataka (backend)
 \end{itemize}
 
 \subsection{Audio*}
-Audio zapis stranica bi sadržavao samo jedan "<audio>" tag koji bi izvodio pjesmu ovisno o kliknutoj pjesmi iz albuma koji bi se nalazio ispod. Slika "Navi" prikazuje izgled audio stranice.
+Audio zapis stranica bi sadržavao samo jedan "audio" tag koji bi izvodio pjesmu ovisno o kliknutoj pjesmi iz albuma koji bi se nalazio ispod. Slika "Navi" prikazuje izgled audio stranice.
 \\
 \\
 Implementirati:
