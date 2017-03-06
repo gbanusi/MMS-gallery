@@ -1,4 +1,4 @@
-This i a Ruby on Rails (RoR) project for Multimedia systems (https://www.math.pmf.unizg.hr/hr/multimedijski-sustavi-pravila).
+This is a Ruby on Rails (RoR) project for Multimedia systems (https://www.math.pmf.unizg.hr/hr/multimedijski-sustavi-pravila).
 
 Gallery is running on link:
 
